@@ -348,10 +348,7 @@ cmd({
 _This is  ${tlang().title}._
 ${alivemessage}
 
-*Version:-* _1.9.2_
-*Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _${Config.ownername}_
-*Branch:-* _${Config.BRANCH}_
+*Hello 👋 humans 🤖
 
 _Type ${prefix}menu for my command list._
 
