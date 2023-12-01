@@ -38,9 +38,9 @@ const quizQuestions = [
     },
 
     {
-        question: "how old is excel😕?",
-        options: ["A. 21", "B. 15", "C. 17"],
-        correctAnswer: "C"
+        question: "how many members in BTS💜?",
+        options: ["A. 7", "B. 15", "C. 9", "D. 10"],
+        correctAnswer: "A"
     },
 
     {
