@@ -240,13 +240,13 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *Tag All*   〙✪══
+━━━━❰ *Tag All* ❱━━━━
 
 ➲ *Message :* ${text ? text : "blank"}\n\n
-➲ *Author:* ${Config.ownername} 🔖
+➲ *Author:* ${Config.ownername} ⚓
 `
         for (let mem of participants) {
-            textt += `📍 @${mem.id.split("@")[0]}\n`;
+            textt += `⛩️ @${mem.id.split("@")[0]}\n`;
         }
         Void.sendMessage(citel.chat, {
             text: textt,
@@ -546,10 +546,10 @@ cmd({
 *Hii ${citel.pushName},*
 *Here is your profile information*
 *👤Username:* ${citel.pushName}
-*⚡Bio:* ${bioo}
-*🧩Role:* ${role}
-*🍁Level:* ${userq.level}
-*📥 Total Messages* ${ttms}
+*🍥Bio:* ${bioo}
+*🥢Role:* ${role}
+*🎋Level:* ${userq.level}
+*⛩️ Total Messages* ${ttms}
 *Powered by ${tlang().title}*
 `;
             let buttonMessage = {
@@ -918,7 +918,7 @@ else if(text=="Detail" || text=="Info" || text=="info" || text=="details" )
     const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || citel.chat.split`-`[0] + '@s.whatsapp.net'
 
     let ginfos = `
-      *「 INFO GROUP 」*
+       *info group*
 *▢ ID :*
    • ${groupMetadata.id}
 *▢ NAME :* 
@@ -1093,9 +1093,9 @@ cmd({
             teskd += `*There are total ${h.length}  warnings.*\n`
             for (let i = 0; i < h.length; i++) {
                 teskd += `*${i+1}*\n╭─────────────◆\n│ *🍁In Group:-* ${h[i].group}\n`
-                teskd += `│ *🔰Time:-* ${h[i].date}\n`
+                teskd += `│ *⌛Time:-* ${h[i].date}\n`
                 teskd += `│ *⚠️Warned by:-* ${h[i].warnedby}\n`
-                teskd += `│ _📍Reason: ${h[i].reason}_\n╰─────────────◆\n\n`
+                teskd += `│ _🍥Reason: ${h[i].reason}_\n╰─────────────◆\n\n`
             }
             citel.reply(teskd)
         }
