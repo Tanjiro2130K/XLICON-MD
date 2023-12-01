@@ -132,17 +132,19 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/salmanytofficial/XLICON-MD')
-        let cap = `Hey ${citel.pushName}\n
-*⭐ Total Stars:* ${data.stargazers_count} stars
-*🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* https://github.com/salmanytofficial/XLICON-MD
-_*🧩 Scan Qr:* https://replit.com/@S4SalmanYt/XLICON-MD-QR-V5?v=1
-_*💫Support Gc:* https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2
-_*🌊Bot Test Gc:* https://chat.whatsapp.com/H4kNueBuggV8PKQrgewSD7
-_*☘Heroku Deploy Tutorial [Mobile]:* https://youtu.be/wfVg3QCFN68?si=85Mf4mQI51MeDsD5_
-*Deploy Your Own:*-
-https://youtu.be/hH2qZyUjuF4?si=LHq5R_73IiC-L6xW_`
+        let cap = ⛩️ *❯──KIMOCHI💮──❮* ⛩️
+        let cap = `👋 Hey ${citel.pushName}🥢\n
+
+🎋 *Support us by following us on youtube:*
+https://youtube.com/@animeparadise9503?si=qz-jHVpjjP3f4bd6
+
+⛩️owner +917086726371
+⛩️mantainer +917086810603
+
+This help menu is designed to help you get started with the bot.
+
+ ⟾ *📪Command list📪*
+
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -175,19 +177,8 @@ cmd({
     async(Void, citel) => {
        
 	let cap = `
-╔════════════════╗
-  ☞ɢᴇᴛ xʟɪᴄᴏɴ-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ ☜
-╚════════════════╝\n
-*💫 Tutorial:* _How To Create And Deploy Xlicon Multidevice_
-*🎐Channel Name :* _S4 Salman Yt_
-*🍁 Tutorial Link:* _https://youtu.be/hH2qZyUjuF4?si=2_tgWIF-Bbw3ZJiv_
-╭━━━━━━━━━━━━━━━━━━━━╮
-┇  ╔═╦╗╔╦╗╔═╦═╦╦╦╦╗╔═╗
-┇  ║╚╣║║║╚╣╚╣╔╣╔╣║╚╣═╣
-┇  ╠╗║╚╝║║╠╗║╚╣║║║║║═╣
-┇  ╚═╩══╩═╩═╩═╩╝╚╩═╩═╝
-╰━━━━━━━━━━━━━━━━━━━━╯
-*Subscribe to get more videos of tech*`
+		https://youtube.com/@animeparadise9503?si=qz-jHVpjjP3f4bd6
+*Subscribe to get more videos of MIKEY⛩️*`
 	
 	
         let buttonMessaged = 
@@ -216,10 +207,9 @@ cmd({
         latensie = speed() - timestampe;
         let ter = `
 🔰 *${tlang().title}* 🔰
-*🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
-*⚡Speed:* ${latensie.toFixed(4)} ms
+*🧧Description:* A WhatsApp bot to spread love to all whhatsapp universes 💖.
+*✨Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
-*🕸Version:* 0.0.7
 *👤Owner:*  ${Config.ownername}
 *Powered by ${tlang().title}*
 `;
