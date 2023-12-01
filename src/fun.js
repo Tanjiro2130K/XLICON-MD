@@ -69,11 +69,9 @@ cmd({
     async(Void, citel, text) => {
         var quoo = await axios.get(`https://favqs.com/api/qotd`)
         const replyf = `
-╔════◇
-║ *🎯Content:* ${quoo.data.quote.body}
-║ *👤Author:* ${quoo.data.quote.author}
-║
-╚════════════╝ `
+
+*Content:* ${quoo.data.quote.body}
+*Author:* ${quoo.data.quote.author}`
 return citel.reply(replyf)
     }
 
